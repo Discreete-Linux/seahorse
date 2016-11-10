@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="subkeys-examine" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="pgp-subkeys#more"/>
+
+    <revision version="0.1" date="2011-10-23" status="stub"/>
+    <revision pkgversion="3.9" version="0.1" date="2013-07-01" status="review"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author copyright">
+      <name>Aruna Sankaranarayanan</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <desc>See all the subkeys listed under a PGP key.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Wo werden die Unterschlüssel aufgelistet?</title>
+
+  <p>You can check the contents of a keypair to see the properties of a
+  subkey.</p>
+
+  <steps>
+    <title>So sehen Sie alle Unterschlüssel in einem PGP-Schlüssel:</title>
+    <item>
+      <p>Wählen Sie die <gui>GnuPG-Schlüssel</gui> aus dem linken Bereich.</p>
+    </item>
+    <item>
+      <p>Wählen Sie die Liste <gui>Privater PGP-Schlüssel</gui>.</p>
+    </item>
+    <item>
+      <p>Klicken Sie mit der rechten Maustaste auf den im vorherigen Schritt gewählten Schlüssel und wählen Sie <guiseq><gui>Eigenschaften</gui><gui>Details</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>If the <gui>Subkeys</gui> panel is not expanded, expand it.</p>
+    </item>
+    <item>
+      <p>Daraufhin werden alle Unterschlüssel des gewählten PGP-Schlüssels in der Leiste aufgelistet.</p>
+    </item>
+  </steps>
+
+  <note style="info">
+    <p>While signing another key, <app>Passwords and Keys</app> automatically
+    chooses the master key for signing, when you select a <gui>GnuPG keys</gui>
+    keypair to sign with.</p>
+  </note>
+
+</page>
